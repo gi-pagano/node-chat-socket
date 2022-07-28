@@ -8,13 +8,13 @@
         <script src="/socket.io/socket.io.js"></script>
         <script src="main.js"></script>
     </head>
-    <body>
-        <h1>My Chat App</h1>
-        <div id="messages"></div>
-        <form onsubmit="return addMessage(this)">
-            <input type="text" id="username" placeholder="Tu nombre">
-            <input type="text" id="texto" placeholder="Decí algo...">
-            <input type="submit" value="Enviar">
+    <body style="text-align:center; background-color:#7FB285;">
+        <h1 style="text-align:center; color:white;">My Chat App</h1>
+        <div style="background-color:#FAB3A9; padding: 50px; border-radius: 10px;" id="messages"></div>
+        <form style="padding:10px;" onsubmit="return addMessage(this)">
+            <input style="padding:10px; background-color: #C6AD94; border-radius: 10px;" type="text" id="username" placeholder="Tu nombre">
+            <input style="padding:10px; background-color: #C6AD94; border-radius: 10px;" type="text" id="texto" placeholder="Decí algo...">
+            <input style="padding:10px; background-color: #C6AD94; border-radius: 10px; color:white; font-weight: bold; font-size: medium;" type="submit" value="Enviar">
         </form>
     </body>
 </html>

@@ -20,5 +20,7 @@ function addMessage(e) {
         text: document.getElementById("texto").value,
     };
     socket.emit("new-message", mensaje);
+    document.getElementById("texto").value = "";
+    document.getElementById("username").value = "";
     return false;
 }
